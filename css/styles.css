@@ -352,8 +352,8 @@ a {
 
 /* Plans */
 
-.plans {
-    transition: transform .2s ease-out;
+.plan {
+    transition: transform 0.2s ease-out;
 }
 
 .plan__name {
@@ -406,7 +406,7 @@ a {
     transform: scale(1.05);
 }
 
-.plan--popular :hover {
+.plan--popular:hover {
     transform: scale(1.15);
 }
 
